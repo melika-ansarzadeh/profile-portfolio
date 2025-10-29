@@ -7,3 +7,10 @@
   --color-custom-300: #91766e;
   --color-custom-400: #65544f;
 }
+
+.background {
+  background-image: url(./../assets/images/background2.png); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

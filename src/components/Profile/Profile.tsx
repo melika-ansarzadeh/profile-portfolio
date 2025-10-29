@@ -1,3 +1,7 @@
+import ProfileCard from "./ProfileCard/ProfileCard";
+
 export default function Profile() {
-  return <div></div>;
+  return <div>
+    <ProfileCard/>
+  </div>;
 }
