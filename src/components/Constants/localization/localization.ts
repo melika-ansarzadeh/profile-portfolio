@@ -13,3 +13,9 @@ export const ProfileCardlocalization = {
   job: 'Front-End Developer',
   location: 'Iran,Tehran',
 };
+
+export const aboutMelocalization = {
+  aboutMe: 'About Me',
+  description:
+    'Hello! I am Melika, a software developer with a passion for designing and implementing creative and efficient solutions. I focus on continuous learning of modern technologies and delivering high-quality digital experiences.',
+};

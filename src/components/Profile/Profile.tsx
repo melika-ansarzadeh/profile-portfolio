@@ -1,7 +1,11 @@
+import AboutMe from "./AboutMe/AboutMe";
 import ProfileCard from "./ProfileCard/ProfileCard";
 
 export default function Profile() {
-  return <div>
-    <ProfileCard/>
-  </div>;
+  return (
+    <div className="relative">
+      <ProfileCard />
+      <AboutMe />
+    </div>
+  );
 }
