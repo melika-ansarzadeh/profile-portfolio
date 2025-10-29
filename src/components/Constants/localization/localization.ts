@@ -21,7 +21,7 @@ export const AboutMelocalization = {
 };
 
 export const MySkillslocalization = {
-  myskills:'My Skills',
+  myskills: 'My Skills',
   html: 'HTML',
   css: 'CSS',
   javascript: 'JavaScript',
@@ -38,4 +38,18 @@ export const ContactMelocalization = {
   gitHub: 'GitHub',
   linkedIn: 'LinkedIn',
   email: 'Email',
+};
+
+export const MyProjectslocalization = {
+  myProjects: 'My Projects',
+  aika: 'Aika gallery',
+  parmisarSite: 'Parmisar store',
+  parmisarAdmin: 'Parmisar admin panel',
+  siteDescription:
+    'A modern e-commerce platform for mobile phones built with Next.js, TypeScript, and Chakra UI.',
+  aikaDescription:
+    'jewelry e-commerce website built with Next.js, TypeScript, Tailwind CSS and Several libraries.',
+  adminDescription:
+    'An admin panel for an e-commerce website built with React, TypeScript, and Vite',
+  seeProject: 'See project',
 };

@@ -8,9 +8,26 @@
   --color-custom-400: #65544f;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: zahir;
+  src: url(./../assets/font/ZahirTRIAL-Medium.ttf);
+}
+
+* {
+  font-family: zahir;
+}
+
 .background {
-  background-image: url(./../assets/images/background2.png); 
+  background-image: url(./../assets/images/background2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.scroll-margin-header {
+  scroll-margin-top: 7rem;
 }
