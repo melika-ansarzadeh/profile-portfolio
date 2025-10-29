@@ -1,5 +1,5 @@
 'use client';
-import { headerlocalization } from '@/components/Constants/localization/localization';
+import { Headerlocalization } from '@/components/Constants/localization/localization';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -19,7 +19,7 @@ export default function Header() {
               : 'hover:bg-custom-50 transition-shadow duration-300'
           }`}
         >
-          {headerlocalization.aboutMe}
+          {Headerlocalization.aboutMe}
         </Link>
         <Link
           href=""
@@ -29,7 +29,7 @@ export default function Header() {
               : 'hover:bg-custom-50 transition-shadow duration-300'
           }`}
         >
-          {headerlocalization.mySkills}
+          {Headerlocalization.mySkills}
         </Link>
         <Link
           href=""
@@ -39,7 +39,7 @@ export default function Header() {
               : 'hover:bg-custom-50 transition-shadow duration-300'
           }`}
         >
-          {headerlocalization.myProjects}
+          {Headerlocalization.myProjects}
         </Link>
       </nav>
     </div>
