@@ -19,3 +19,15 @@ export const aboutMelocalization = {
   description:
     'Hello! I am Melika, a software developer with a passion for designing and implementing creative and efficient solutions. I focus on continuous learning of modern technologies and delivering high-quality digital experiences.',
 };
+
+export const MySkillslocalization = {
+  myskills:'My Skills',
+  html: 'HTML',
+  css: 'CSS',
+  javascript: 'JavaScript',
+  typescript: 'TypeScript',
+  tailwind: 'Tailwind CSS',
+  react: 'React js',
+  next: 'Next js',
+  git: 'Git',
+};
